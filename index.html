@@ -47,7 +47,7 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-amber.min.css" />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-blue.min.css" /><link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-amber.min.css" />
   <link rel="stylesheet" href="styles.css">
   <style>
     #view-source {
@@ -101,6 +101,22 @@
       display: none;
     }
 
+
+    .mal-descri-tab{
+      margin-right: 10px;
+    }
+
+/* header顏色強制蓋掉 */
+    .mdl-layout.is-upgraded .mdl-layout__tab{
+      color: #EEE !important;
+    }
+    .mdl-layout.is-upgraded .mdl-layout__tab.is-active{
+      color: #FFF !important;
+    }
+
+
+
+
     
   </style>
 </head>
@@ -111,37 +127,53 @@
       <div class="mdl-layout--large-screen-only mdl-layout__header-row">
       </div>
       <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-        <h3 class="header-title">$B.A.S.H - Become A Smarter Hacker</h3>
+        <h3 class="header-title">
+          <code>B.A.S.H $ ~/<span class="mal_name"></span></code>
+          <br>
+          <div><h5><code>Become A Smarter Hacker</code></h5></div>
+        
+        </h3>
       </div>
       <div class="mdl-layout--large-screen-only mdl-layout__header-row">
       </div>
       <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
         <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
-        <a href="#features" class="mdl-layout__tab">Features</a>
+        <a href="#tracelog" class="mdl-layout__tab">tracelog</a>
         <a href="#features" class="mdl-layout__tab">Details</a>
         <a href="#features" class="mdl-layout__tab">Technology</a>
         <a href="#features" class="mdl-layout__tab">FAQ</a>
-        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent"
+
+
+        <!-- <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width is-upgraded" data-upgraded=",MaterialTextfield">
+          <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field" data-upgraded=",MaterialButton">
+            <i class="material-icons">search</i>
+          </label>
+          <div class="mdl-textfield__expandable-holder">
+            <input class="mdl-textfield__input" type="text" id="search-field">
+          </div>
+        </div> -->
+
+        <!-- Expandable Textfield --> <form action="index.html" method="GET"> <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable"> <label class="mdl-button mdl-js-button mdl-button--icon" for="search-input"> <i class="material-icons" style="color:white">search</i> </label> <div class="mdl-textfield__expandable-holder"> <input style="color:white" class="mdl-textfield__input" type="text" name="name"id="search-input"> <label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label> </div> </div> </form>
+        <!-- <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent"
           id="add">
           <i class="material-icons" role="presentation">add</i>
           <span class="visuallyhidden">Add</span>
-        </button>
+        </button> -->
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="mdl-layout__tab-panel is-active" id="overview">
         <!-- malware summary section -->
         <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-          <header class="section-header-info section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--lime-500 mdl-color-text--white">
-            WORM
+          <header class="mal_contact_type section-header-info section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--lime-500 mdl-color-text--white">
+            VIRUS
           </header>
 
           <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
             <div class="mdl-card__supporting-text">
-              <h4>Allaple</h4>
+              <h4 class="mal_name"></h4>
               <div class="mal_summary">
-                Worm:Win32/Allaple.A is a multi-threaded, polymorphic network wormcapable ofspreadingto other computers connected to a local
-                area network (LAN)and performingdenial-of-service (DoS) attacks against targeted remote Web sites.
+                Loading...
               </div>
             </div>
             <!-- <div class="mdl-card__actions">
@@ -169,12 +201,10 @@
 
               </div>
               <div class="mal_behaviors section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                <h5>Behaviors</h5>
+                <h5>Summary</h5>
+                <!-- <h5>Behaviors</h5> -->
                 <div class="mal_behaviors_content">
-                  The malware scans for vulnerable computers (on TCP ports 139 and 445) and sends exploits there in order to infect them. Scans
-                  for .HTM and .HTML files on all local hard disks and infects them by prepending a reference to worm’s CLSID
-                  there. It also performs a DoS attack on three websites located in Estonia
-
+                  Loading...
                 </div>
               </div>
               <div class="mal_tech_description section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
@@ -183,26 +213,7 @@
               <div class="mal_tech_description section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
                 <h5>Technical description</h5>
                 <div class="mal_tech_description_content">
-                  The worm's file is polymorphically encrypted, which means every copy of the worm is different.The worm creates a different
-                  CLSID for every copy of itself that it creates on the hard drive. After getting control, the worm creates
-                  a few threads.
-                  <ul>
-                    1. One thread scans for vulnerable computers (on TCP ports 139 and 445) and sends exploits there in order to infect them.
-                    <br> (1)Microsoft Security Bulletin MS06-040，利用Server 服務中的弱點可能會允許遠端執行程式碼
-                    <br> (2)字典破解弱密碼
-                  </ul>
-
-                  <ul>
-                    2. The other thread scans for .HTM and .HTML files on all local hard disks and infects them by prepending a reference to
-                    worm's CLSID there.
-                    <div>
-                      <img class="fit-img" src="https://i.imgur.com/VUCwgxA.png" />
-                    </div>
-
-                  </ul>
-                  <ul>
-                    3. One of the remaining threads performs a DoS attack on three websites located in Estonia.
-                  </ul>
+                  Loading...
                 </div>
               </div>
 
@@ -212,28 +223,15 @@
               <div class="mal_symptons section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
                 <h5>Symptons</h5>
                 <div class="mal_symptons_content">
-                The following symptoms may be indicative of a Worm:Win32/Allaple.A infection:
-                <ul>
-                  1. Unexpected presence of arandomly named .EXE file in folders containing files with .HTML and .HTM file extensions
-                </ul>
-                <ul>
-                  2. Presence of the following registry modification: ImagePath =
-                  <system folder>\
-                    <filename> /service Insubkey:
-                      <code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSWindows</code>
-                </ul>
-                <ul>
-                  3. The only constant aspect of the worm’s code is the size of its executable file - 57856 bytes.Large copies of 57856 bytes
-                  files in disk.
-                </ul>
-              </div>
+                  Loading...
+                </div>
 
 
               </div>
 
             </div>
-            <div class="mdl-card__actions">
-              <span class="mdl-chip mdl-chip--contact pointer ms-tab">
+            <div class="mdl-card__actions mal-descri-tabs">
+              <span class="mdl-chip mdl-chip--contact pointer mal-descri-tab">
                 <span class="mdl-chip__contact mdl-color--blue mdl-color-text--white">M</span>
                 <span class="mdl-chip__text">Microsoft</span>
               </span>
@@ -273,8 +271,11 @@
             <li class="mdl-menu__item">Dolor</li>
           </ul>
         </section>
+        
+      </div>
+      <div class="mdl-layout__tab-panel" id="tracelog">
         <section class="section--footer mdl-color--white mdl-grid">
-
+          
           <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
             <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
           </div>

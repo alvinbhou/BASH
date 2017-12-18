@@ -1,4 +1,15 @@
-
+function findGetParameter(parameterName) {
+  var result = null,
+      tmp = [];
+  location.search
+      .substr(1)
+      .split("&")
+      .forEach(function (item) {
+        tmp = item.split("=");
+        if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+      });
+  return result;
+}
 
 function dialog_registry(dll_data) {
     var dll_dialog = document.querySelector('.mdl-dialog.dll-dialog');
@@ -17,14 +28,65 @@ function dialog_registry(dll_data) {
 }
 
 $(window).ready(function () {
+    var malwareName = findGetParameter('name');
+    if(!malwareName){
+      $('.mdl-layout__tab-panel').hide();
+      return;
+    }
+
+    var tracelogColor  ;
     $.ajax({
-      url: "data/tracelog.json",
+      url: "data/tracelogColor.json",
+      dataType: 'json',
+      async: false,
+      success: function (data) {
+        tracelogColor = data;
+      }
+    });
+    var tracelogHighlightRule;
+    $.ajax({
+      url: "data/tracelogHighlightRule.json",
+      dataType: 'json',
+      async: false,
+      success: function (data) {
+        tracelogHighlightRule = data;
+      }
+    });
+
+
+    // tracelog data
+    $.ajax({
+      url: "data/tracelog/"+malwareName+".json",
       dataType: 'json',
       async: false,
       success: function (data) {
         console.log(data.length);
         var $tbody = $('#tracelog-tb tbody');
         for (var i = 0; i < data.length; ++i) {
+          var actionName = data[i]['action_name'];
+          
+          var shouldHighlight = false;
+          // highlight action_name
+          for(var j = 0; j <tracelogHighlightRule['action_name'].length; ++j){
+            if(actionName.indexOf(tracelogHighlightRule['action_name'][j]) != -1){
+              
+              shouldHighlight = true;
+              break;
+            }
+          }
+          // highlight actions
+          for(var k = 0; k <data[i]['actions'].length; ++k){
+            for(var j = 0; j <tracelogHighlightRule['actions'].length; ++j){
+              if(data[i]['actions'][k].join(' ').indexOf(tracelogHighlightRule['actions'][j]) != -1){
+                
+                shouldHighlight = true;
+                break;
+              }
+            }
+          }
+
+          var backgroundColorHTML = shouldHighlight? ';background-color:'+tracelogColor[actionName]['backgroundColor']:'';
+          var actionNameColorHTML = 'color: '+ tracelogColor[actionName]['color'] +';';
 
           var tb_row = "";
           // index
@@ -49,7 +111,11 @@ $(window).ready(function () {
           tb_row += '<td>' + 'OB' + '</td>';
           var tracelog = "";
 
-          tracelog += '<strong>' + data[i]['action_name'] + '</strong> <br>';
+
+          
+
+          
+          tracelog += '<strong style="'+actionNameColorHTML+'">' + actionName + '</strong> <br>';
 
           if (data[i]['actions'].length > 0) {
             for (var j = 0; j < data[i]['actions'].length; ++j) {
@@ -66,7 +132,7 @@ $(window).ready(function () {
           tracelog += "Return:" + data[i]['return'];
 
           tb_row += '<td >' + tracelog + '</td>';
-          var tr = "<tr>" + tb_row + '</tr>';
+          var tr = "<tr style=\""+backgroundColorHTML+"\">" + tb_row + '</tr>';
           $tbody.append(tr);
 
         }
@@ -82,25 +148,86 @@ $(window).ready(function () {
         dll_data = data;
       }
     });
-    var malware_data;
+    var dataSource = ['Self', 'Microsoft', 'F-Secure'];
+    var dataSourceColor = ['purple', 'blue', 'green'];
+    var malware_data = {};
+
+    var template = '';
+    for(var i = 0 ; i < dataSource.length ; ++i){
+      var sourceSymbol = dataSource[i][0].toUpperCase();
+      console.log(sourceSymbol);
+      $.ajax({
+        url: "data/malware_info_"+dataSource[i].toLowerCase()+"/"+malwareName+".json",
+        dataType: 'json',
+        async: false,
+        success: function (data) {
+          var dataNum = data['content'].length;
+          for(var k = 0 ; k < dataNum ; ++k){
+            var infoID = 'mal-descr-' + dataSource[i]+k.toString();
+            malware_data[infoID] = data['content'][k];
+  
+            template += '<span id="'+infoID+'" class="mdl-chip mdl-chip--contact pointer mal-descri-tab">';
+            template += '<span class="mdl-chip__contact mdl-color--'+dataSourceColor[i]+' mdl-color-text--white">'+sourceSymbol+'</span>';
+            template += '<span class="mdl-chip__text">'+dataSource[i]+'</span>';
+            template += '</span>';
+          }
+        }
+      });
+    }
+    $('.mal-descri-tabs').html(template);
+
+    
+
+    $('.mal-descri-tabs .mal-descri-tab').click(function name(params) {
+      var infoID = $(this).attr('id');
+      var t = $('.mal_tech_description');
+      if(malware_data[infoID]['tech']){
+        t.show();
+        $('.info-section .mal_tech_description_content').html(malware_data[infoID]['tech']);
+      }else{
+        t.hide()
+      }
+      t = $('.mal_symptons');
+      if(malware_data[infoID]['symptoms']){
+        t.show();
+        $('.info-section .mal_symptons_content').html(malware_data[infoID]['symptoms']);
+      }else{
+        t.hide()
+      }
+      t = $('.mal_behaviors');
+      if(malware_data[infoID]['summary']){
+        t.show();
+        $('.info-section .mal_behaviors_content').html(malware_data[infoID]['summary']);
+      }else{
+        t.hide()
+      }
+
+      
+    });
+
+    $('.mal-descri-tab')[0].click(); // 看第一個
+
+    var summaryData;
     $.ajax({
-      url: "data/ms_malware_info.json",
+      url: "data/malware_info_summary/"+malwareName+".json",
       dataType: 'json',
       async: false,
       success: function (data) {
-        malware_data = data;
-        // malware_data = malware_data['allaple'];
-        malware_data = malware_data[0]['content'][1];
+        summaryData = data;
+        $('.mal_name').html(summaryData['name']);
+        $('.mal_summary').html(summaryData['summary']);
+        $('.mal_contact_type').html(summaryData['contactType'].toUpperCase());
       }
     });
-    $('.ms-tab').click(function name(params) {
-      $('.info-section .mal_tech_description_content').html(malware_data['tech']);
-      $('.info-section .mal_symptons_content').html(malware_data['symptoms']);
-
-      console.log($(this));
-    });
+    
     
     dialog_registry(dll_data);
+
+
+    // android-search-box
+    $('.android-search-box').click(function(){
+      $(this).addClass('is-focused');
+    })
 });
 
 
