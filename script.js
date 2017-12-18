@@ -2,6 +2,9 @@
 
 function dialog_registry(dll_data) {
     var dll_dialog = document.querySelector('.mdl-dialog.dll-dialog');
+    if (! dll_dialog.showModal) {
+        dialogPolyfill.registerDialog(dll_dialog);
+      }
     dll_dialog.querySelector('.close').addEventListener('click', function () {
       dll_dialog.close();
     });
