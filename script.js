@@ -12,8 +12,8 @@ function findGetParameter(parameterName) {
 }
 
 function load_descri(malwareName){
-  var dataSource = ['Self', 'Microsoft', 'F-Secure'];
-  var dataSourceColor = ['purple', 'blue', 'green'];
+  var dataSource = ['Self', 'Microsoft', 'F-Secure', 'trendmicro', 'symantec'];
+  var dataSourceColor = ['purple', 'blue', 'green', 'red', 'orange'];
   var malware_data = {};
 
   var template = '';
@@ -38,6 +38,8 @@ function load_descri(malwareName){
       }
     });
   }
+
+  console.log(malware_data);
   $('.mal-descri-tabs').html(template);
 
   
@@ -47,21 +49,21 @@ function load_descri(malwareName){
     var t = $('.mal_tech_description');
     if(malware_data[infoID]['tech']){
       t.show();
-      $('.info-section .mal_tech_description_content').html(malware_data[infoID]['tech']);
+      $('.info-section .mal_tech_description_content').html(malware_data[infoID]['tech'].replace(/\n/g,'<br>'));
     }else{
       t.hide()
     }
     t = $('.mal_symptons');
     if(malware_data[infoID]['symptoms']){
       t.show();
-      $('.info-section .mal_symptons_content').html(malware_data[infoID]['symptoms']);
+      $('.info-section .mal_symptons_content').html(malware_data[infoID]['symptoms'].replace(/\n/g,'<br>'));
     }else{
       t.hide()
     }
     t = $('.mal_behaviors');
     if(malware_data[infoID]['summary']){
       t.show();
-      $('.info-section .mal_behaviors_content').html(malware_data[infoID]['summary']);
+      $('.info-section .mal_behaviors_content').html(malware_data[infoID]['summary'].replace(/\n/g,'<br>'));
     }else{
       t.hide()
     }
@@ -242,6 +244,7 @@ $(window).ready(function () {
       return;
     }else{
       malwareName = malwareName.toLowerCase();
+      $('.mal_name').html(malwareName);
       $("#welcomeMsg").hide()
     }
 
