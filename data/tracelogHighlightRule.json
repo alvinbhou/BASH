@@ -1,4 +1,4 @@
 {
     "actions":["\\\\.\\"],
-    "action_name":["CreateRemoteThread"]
+    "action_name":["CreateRemoteThread","CreateThread","RegSetValue"]
 }
