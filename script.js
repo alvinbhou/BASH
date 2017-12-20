@@ -154,16 +154,31 @@ function load_tracelog(malwareName){
         tb_row += '<td>' + (i+1).toString() + '</td>';
 
         // stage
-        var stage;
-        if (i <= 23)
-          stage = '1';
-        else if (i <= 91)
-          stage = '2';
-        else if (i <= 96)
-          stage = '3';
-        else
-          stage = '4';
-        tb_row += '<td>' + stage + '</td>';
+        if(tracelogDes){
+          var stage;
+          var stages = tracelogDes['stages'];
+          console.log(stages);
+          for(var j =0; j < stages.length; ++j){
+            if(stages[j] > i){
+              stage = j+1;
+              break;
+            }
+          }
+          tb_row += '<td>' + stage + '</td>';
+        }
+        else{
+          var stage;
+          if (i <= 23)
+            stage = '1';
+          else if (i <= 91)
+            stage = '2';
+          else if (i <= 96)
+            stage = '3';
+          else
+            stage = '4';
+          tb_row += '<td>' + stage + '</td>';
+        }
+        
 
         
         if( tracelogDes[(i+1).toString()]){
