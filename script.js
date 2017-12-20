@@ -98,6 +98,17 @@ function load_tracelog(malwareName){
       tracelogHighlightRule = data;
     }
   });
+  var tracelogDes = false;
+  $.ajax({
+    url: "data/malware_tracelog_info/" + malwareName +".json",
+    dataType: 'json',
+    async: false,
+    success: function (data) {
+      tracelogDes = data;
+      console.log(tracelogDes);
+    }
+  });
+
 
 
   // tracelog data
@@ -106,7 +117,7 @@ function load_tracelog(malwareName){
     dataType: 'json',
     async: false,
     success: function (data) {
-      console.log(data.length);
+      console.log((data.length));
       var $tbody = $('#tracelog-tb tbody');
       for (var i = 0; i < data.length; ++i) {
         var actionName = data[i]['action_name'];
@@ -130,9 +141,13 @@ function load_tracelog(malwareName){
             }
           }
         }
-
-        var backgroundColorHTML = shouldHighlight? ';background-color:'+tracelogColor[actionName]['backgroundColor']:'';
-        var actionNameColorHTML = 'color: '+ tracelogColor[actionName]['color'] +';';
+        try {
+          var backgroundColorHTML = shouldHighlight? ';background-color:'+tracelogColor[actionName]['backgroundColor']:'';
+          var actionNameColorHTML = 'color: '+ tracelogColor[actionName]['color'] +';';
+        } catch (error) {
+          console.log(error);
+        }
+        
 
         var tb_row = "";
         // index
@@ -150,11 +165,25 @@ function load_tracelog(malwareName){
           stage = '4';
         tb_row += '<td>' + stage + '</td>';
 
-        // technical description
-        tb_row += '<td>' + 'TD' + '</td>';
-
-        // observed behavior
-        tb_row += '<td>' + 'OB' + '</td>';
+        
+        if( tracelogDes[(i+1).toString()]){
+          if(tracelogDes[(i+1).toString()]['td'])
+            tb_row += '<td>' + tracelogDes[(i+1).toString()]['td'] + '</td>';
+          else
+            tb_row += '<td>' + '-' + '</td>';
+          if(tracelogDes[(i+1).toString()]['ob'])
+            tb_row += '<td>' + tracelogDes[(i+1).toString()]['ob'] + '</td>';
+          else
+          tb_row += '<td>' + '-' + '</td>';
+        }
+        else{
+           // technical description
+          tb_row += '<td>' + '-' + '</td>';
+          
+          // observed behavior
+          tb_row += '<td>' + '-' + '</td>';
+        }
+       
         var tracelog = "";
 
 
@@ -262,6 +291,7 @@ $(window).ready(function () {
       async: false,
       success: function (data) {
         dll_data = data;
+        console.log(data);
       }
     });
     dialog_registry(dll_data);

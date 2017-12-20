@@ -1,9 +1,38 @@
-{"LoadLibrary":{"color": "#8BC34A", "backgroundColor": "#DCEDC8"}
-,"CreateFile":{"color": "#F44336", "backgroundColor": "#FFCDD2"}
-,"CopyFile":{"color": "#B71C1C", "backgroundColor": "#EF9A9A"}
-,"RegQueryValue":{"color": "#2196F3", "backgroundColor": "#BBDEFB"}
-,"RegEnumValue":{"color": "#000", "backgroundColor": "#FFF"}
-,"RegCreateKey":{"color": "#2196F3", "backgroundColor": "#BBDEFB"}
-,"RegSetValue":{"color": "#FFC107", "backgroundColor": "#FFECB3"}
-,"CreateThread":{"color": "#673AB7", "backgroundColor": "#D1C4E9"}
-,"CreateRemoteThread":{"color": "#673AB7", "backgroundColor": "#D1C4E9"}}
+{
+    "LoadLibrary": {
+        "color": "#8BC34A",
+        "backgroundColor": "#DCEDC8"
+    },
+    "CreateFile": {
+        "color": "#F44336",
+        "backgroundColor": "#FFCDD2"
+    },
+    "CopyFile": {
+        "color": "#B71C1C",
+        "backgroundColor": "#EF9A9A"
+    },
+    "RegQueryValue": {
+        "color": "#2196F3",
+        "backgroundColor": "#BBDEFB"
+    },
+    "RegEnumValue": {
+        "color": "#000",
+        "backgroundColor": "#FFF"
+    },
+    "RegCreateKey": {
+        "color": "#2196F3",
+        "backgroundColor": "#BBDEFB"
+    },
+    "RegSetValue": {
+        "color": "#FFC107",
+        "backgroundColor": "#FFECB3"
+    },
+    "CreateThread": {
+        "color": "#673AB7",
+        "backgroundColor": "#D1C4E9"
+    },
+    "CreateRemoteThread": {
+        "color": "#673AB7",
+        "backgroundColor": "#D1C4E9"
+    }
+}

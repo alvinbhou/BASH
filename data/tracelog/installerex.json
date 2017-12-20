@@ -1,1 +1,1804 @@
-[{"actions": [["lpFileName", "C:\\WINDOWS\\system32\\IMM32.DLL"]], "timestamp": "209610000", "action_name": "LoadLibrary", "return": "76390000"}, {"actions": [["lpFileName", "gdi32.dll"]], "timestamp": "210400000", "action_name": "LoadLibrary", "return": "77f10000"}, {"actions": [["lpFileName", "LPK.DLL"]], "timestamp": "210100000", "action_name": "LoadLibrary", "return": "629c0000"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\CriticalSectionTimeout"]], "timestamp": "210630000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Ole\\RWLockResourceTimeOut"]], "timestamp": "210640000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Control Panel\\Desktop\\SmoothScroll"]], "timestamp": "211310000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["lpFileName", "imm32.dll"]], "timestamp": "211320000", "action_name": "LoadLibrary", "return": "76390000"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\SYSTEM\\Setup\\SystemSetupInProgress"]], "timestamp": "211660000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hName", "C:\\WINDOWS\\WindowsShell.Manifest"], ["desiredAccess", "GENERIC_READ"], ["creationDisposition", "OPEN_EXISTING"]], "timestamp": "212560000", "action_name": "CreateFile", "return": "48"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Control Panel\\Desktop\\SmoothScroll"]], "timestamp": "212800000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\EnableBalloonTips"]], "timestamp": "212810000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\LanguagePack\\SURR"], ["type", "REG_DWORD"], ["data", "2"]], "timestamp": "212820000", "action_name": "RegEnumValue", "return": "0"}, {"actions": [["lpFileName", "comctl32.dll"]], "timestamp": "211910000", "action_name": "LoadLibrary", "return": "773d0000"}, {"actions": [["lpFileName", "comctl32.dll"]], "timestamp": "213010000", "action_name": "LoadLibrary", "return": "5d090000"}, {"actions": [["lpFileName", "comctl32.dll"]], "timestamp": "213790000", "action_name": "LoadLibrary", "return": "773d0000"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\DisableImprovedZoneCheck"]], "timestamp": "214130000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_OBJECT_CACHING\\malware.exe"]], "timestamp": "214200000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_OBJECT_CACHING\\*"]], "timestamp": "214200000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_ZONE_ELEVATION\\malware.exe"]], "timestamp": "214210000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_ZONE_ELEVATION\\*"]], "timestamp": "214210000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_MIME_HANDLING\\malware.exe"]], "timestamp": "214220000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_MIME_HANDLING\\*"]], "timestamp": "214220000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_MIME_SNIFFING\\malware.exe"]], "timestamp": "214230000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_MIME_SNIFFING\\*"]], "timestamp": "214230000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_WINDOW_RESTRICTIONS\\malware.exe"]], "timestamp": "214240000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_WINDOW_RESTRICTIONS\\*"]], "timestamp": "214240000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_WEBOC_POPUPMANAGEMENT\\malware.exe"]], "timestamp": "214250000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_WEBOC_POPUPMANAGEMENT\\*"]], "timestamp": "214250000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_BEHAVIORS\\malware.exe"]], "timestamp": "214250000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_BEHAVIORS\\*"]], "timestamp": "214260000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_DISABLE_MK_PROTOCOL\\malware.exe"]], "timestamp": "214260000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_DISABLE_MK_PROTOCOL\\*"]], "timestamp": "214260000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_LOCALMACHINE_LOCKDOWN\\malware.exe"]], "timestamp": "214270000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_LOCALMACHINE_LOCKDOWN\\*"]], "timestamp": "214270000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_LOCALMACHINE_LOCKDOWN\\malware.exe"]], "timestamp": "214270000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_LOCALMACHINE_LOCKDOWN\\*"]], "timestamp": "214280000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_PROTOCOL_LOCKDOWN\\malware.exe"]], "timestamp": "214300000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_PROTOCOL_LOCKDOWN\\*"]], "timestamp": "214300000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_SAFE_BINDTOOBJECT\\malware.exe"]], "timestamp": "214320000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_SAFE_BINDTOOBJECT\\*"]], "timestamp": "214320000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\MediaProperties\\PrivateProperties\\Joystick\\Winmm\\wheel"]], "timestamp": "214510000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["lpFileName", "advapi32.dll"]], "timestamp": "214780000", "action_name": "LoadLibrary", "return": "77dd0000"}, {"actions": [["lpFileName", "kernel32.dll"]], "timestamp": "215430000", "action_name": "LoadLibrary", "return": "7c800000"}, {"actions": [["lpFileName", "advapi32.dll"]], "timestamp": "216200000", "action_name": "LoadLibrary", "return": "77dd0000"}, {"actions": [["lpFileName", "comctl32.dll"]], "timestamp": "218470000", "action_name": "LoadLibrary", "return": "773d0000"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings"]], "timestamp": "218760000", "action_name": "RegCreateKey", "return": "0"}, {"actions": [["hKey", "8c\\Software\\Microsoft\\Multimedia\\Audio"]], "timestamp": "218790000", "action_name": "RegCreateKey", "return": "0"}, {"actions": [["hKey", "90\\SystemFormats"]], "timestamp": "218790000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.imaadpcm\\fdwSupport"]], "timestamp": "218860000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.imaadpcm\\cFormatTags"]], "timestamp": "218860000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.imaadpcm\\aFormatTagCache"]], "timestamp": "218870000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.imaadpcm\\cFilterTags"]], "timestamp": "218870000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msadpcm\\fdwSupport"]], "timestamp": "218890000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msadpcm\\cFormatTags"]], "timestamp": "218890000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msadpcm\\aFormatTagCache"]], "timestamp": "218890000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msadpcm\\cFilterTags"]], "timestamp": "218890000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msg711\\fdwSupport"]], "timestamp": "218910000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msg711\\cFormatTags"]], "timestamp": "218910000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msg711\\aFormatTagCache"]], "timestamp": "218920000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msg711\\cFilterTags"]], "timestamp": "218920000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msgsm610\\fdwSupport"]], "timestamp": "218940000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msgsm610\\cFormatTags"]], "timestamp": "218940000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msgsm610\\aFormatTagCache"]], "timestamp": "218940000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msgsm610\\cFilterTags"]], "timestamp": "218940000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.trspch\\fdwSupport"]], "timestamp": "218960000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.trspch\\cFormatTags"]], "timestamp": "218960000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.trspch\\aFormatTagCache"]], "timestamp": "218970000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.trspch\\cFilterTags"]], "timestamp": "218970000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msg723\\fdwSupport"]], "timestamp": "218990000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msg723\\cFormatTags"]], "timestamp": "218990000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msg723\\aFormatTagCache"]], "timestamp": "219000000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msg723\\cFilterTags"]], "timestamp": "219000000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msaudio1\\fdwSupport"]], "timestamp": "219020000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msaudio1\\cFormatTags"]], "timestamp": "219020000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msaudio1\\aFormatTagCache"]], "timestamp": "219020000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.msaudio1\\cFilterTags"]], "timestamp": "219030000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.sl_anet\\fdwSupport"]], "timestamp": "219050000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.sl_anet\\cFormatTags"]], "timestamp": "219050000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.sl_anet\\aFormatTagCache"]], "timestamp": "219050000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.sl_anet\\cFilterTags"]], "timestamp": "219050000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.iac2\\fdwSupport"]], "timestamp": "219080000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.iac2\\cFormatTags"]], "timestamp": "219080000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.iac2\\aFormatTagCache"]], "timestamp": "219080000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.iac2\\cFilterTags"]], "timestamp": "219080000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.l3acm\\fdwSupport"]], "timestamp": "219110000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.l3acm\\cFormatTags"]], "timestamp": "219110000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.l3acm\\aFormatTagCache"]], "timestamp": "219110000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\AudioCompressionManager\\DriverCache\\msacm.l3acm\\cFilterTags"]], "timestamp": "219120000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "98\\Software\\Microsoft\\Multimedia\\Audio Compression Manager\\"]], "timestamp": "219120000", "action_name": "RegCreateKey", "return": "0"}, {"actions": [["hKey", "9c\\MSACM"]], "timestamp": "219130000", "action_name": "RegCreateKey", "return": "0"}, {"actions": [["hKey", "98\\NoPCMConverter"]], "timestamp": "219130000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "98\\Software\\Microsoft\\Multimedia\\Audio Compression Manager\\"]], "timestamp": "219190000", "action_name": "RegCreateKey", "return": "0"}, {"actions": [["hKey", "9c\\Priority v4.00"]], "timestamp": "219190000", "action_name": "RegCreateKey", "return": "0"}, {"actions": [["hKey", "98\\Priority1"]], "timestamp": "219190000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["lpFileName", "kernel32.dll"]], "timestamp": "219220000", "action_name": "LoadLibrary", "return": "7c800000"}, {"actions": [["hName", "C:\\Documents and Settings\\All Users\\Desktop\\malwareSrv.exe"], ["desiredAccess", "GENERIC_WRITE"], ["creationDisposition", "CREATE_ALWAYS"]], "timestamp": "220220000", "action_name": "CreateFile", "return": "98"}, {"actions": [["hName", "C:\\Documents and Settings\\All Users\\Desktop\\malwareSrv.exe"], ["desiredAccess", "GENERIC_WRITE"], ["creationDisposition", "CREATE_ALWAYS"]], "timestamp": "220220000", "action_name": "CreateFile", "return": "98"}, {"actions": [["hName", "C:\\Documents"], ["desiredAccess", "GENERIC_READ"], ["creationDisposition", "OPEN_EXISTING"]], "timestamp": "220270000", "action_name": "CreateFile", "return": "ffffffff"}, {"actions": [["hName", "C:\\Documents and"], ["desiredAccess", "GENERIC_READ"], ["creationDisposition", "OPEN_EXISTING"]], "timestamp": "220300000", "action_name": "CreateFile", "return": "ffffffff"}, {"actions": [["hName", "C:\\Documents and Settings\\All"], ["desiredAccess", "GENERIC_READ"], ["creationDisposition", "OPEN_EXISTING"]], "timestamp": "220320000", "action_name": "CreateFile", "return": "ffffffff"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders\\Cache"]], "timestamp": "222490000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["lpFileName", "advapi32.dll"]], "timestamp": "222520000", "action_name": "LoadLibrary", "return": "77dd0000"}, {"actions": [["lpCommandLine", "C:\\Documents and Settings\\All Users\\Desktop\\malwareSrv.exe"]], "timestamp": "220250000", "action_name": "CreateProcessInternal", "return": "1"}, {"actions": [["lpCommandLine", "C:\\Documents and Settings\\All Users\\Desktop\\malwareSrv.exe"]], "timestamp": "220250000", "action_name": "CreateProcessInternal", "return": "1"}, {"actions": [["lpCommandLine", "C:\\Documents and Settings\\All Users\\Desktop\\malwareSrv.exe"]], "timestamp": "220250000", "action_name": "CreateProcess", "return": "1"}, {"actions": [["lpFileName", ".\\wmploc.dll"]], "timestamp": "225450000", "action_name": "LoadLibrary", "return": "860000"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders"]], "timestamp": "225830000", "action_name": "RegCreateKey", "return": "0"}, {"actions": [["hKey", "a8\\CommonMusic"]], "timestamp": "225830000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\winlogon\\UserEnvDebugLevel"]], "timestamp": "226300000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\winlogon\\ChkAccDebugLevel"]], "timestamp": "226350000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\ProductOptions\\ProductType"]], "timestamp": "226400000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders\\Personal"]], "timestamp": "226560000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders\\Local Settings"]], "timestamp": "226560000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\winlogon\\RsopDebugLevel"]], "timestamp": "226620000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\winlogon\\UserEnvDebugLevel"]], "timestamp": "226630000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\winlogon\\RsopLogging"]], "timestamp": "226630000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\winlogon\\UserEnvDebugLevel"]], "timestamp": "226650000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["lpFileName", "USERENV.dll"]], "timestamp": "225840000", "action_name": "LoadLibrary", "return": "769c0000"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\ProfileList\\ProfilesDirectory"]], "timestamp": "226670000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\ProfileList\\AllUsersProfile"]], "timestamp": "226700000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders"]], "timestamp": "226830000", "action_name": "RegCreateKey", "return": "0"}, {"actions": [["hKey", "9c\\CommonMusic"], ["type", "REG_SZ"], ["data", "C:\\Documents and Settings\\All Users\\Documents\\My Music"]], "timestamp": "226830000", "action_name": "RegSetValue", "return": "0"}, {"actions": [["lpFileName", "ole32.dll"]], "timestamp": "226850000", "action_name": "LoadLibrary", "return": "774e0000"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoNetHood"]], "timestamp": "226990000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoPropertiesMyComputer"]], "timestamp": "227000000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoInternetIcon"]], "timestamp": "227040000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoCommonGroups"]], "timestamp": "227370000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoControlPanel"]], "timestamp": "227570000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoSetFolders"]], "timestamp": "227620000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CLASSES_ROOT\\CLSID\\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\\InProcServer32"]], "timestamp": "227740000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\System\\Setup\\SystemSetupInProgress"]], "timestamp": "228550000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\System\\WPA\\PnP\\seed"]], "timestamp": "228560000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\SYSTEM\\Setup\\OsLoaderPath"]], "timestamp": "228560000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\SYSTEM\\Setup\\OsLoaderPath"]], "timestamp": "228560000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\SYSTEM\\Setup\\SystemPartition"]], "timestamp": "228560000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\SYSTEM\\Setup\\SystemPartition"]], "timestamp": "228570000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Setup\\SourcePath"]], "timestamp": "228630000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Setup\\SourcePath"]], "timestamp": "228630000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Setup\\ServicePackSourcePath"]], "timestamp": "228630000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Setup\\ServicePackSourcePath"]], "timestamp": "228630000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Setup\\ServicePackCachePath"]], "timestamp": "228640000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Setup\\DriverCachePath"]], "timestamp": "228640000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Setup\\DriverCachePath"]], "timestamp": "228680000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\DevicePath"]], "timestamp": "228700000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Setup\\LogLevel"]], "timestamp": "228770000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Setup\\LogPath"]], "timestamp": "228770000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["lpFileName", "SETUPAPI.dll"]], "timestamp": "227980000", "action_name": "LoadLibrary", "return": "77920000"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Rpc\\MaxRpcSize"]], "timestamp": "228890000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["lpFileName", "rpcrt4.dll"]], "timestamp": "228940000", "action_name": "LoadLibrary", "return": "77e70000"}, {"actions": [["hName", "\\\\.\\PIPE\\lsarpc"], ["desiredAccess", "GENERIC_READ GENERIC_WRITE"], ["creationDisposition", "OPEN_EXISTING"]], "timestamp": "229050000", "action_name": "CreateFile", "return": "e8"}, {"actions": [["hName", "\\\\.\\PIPE\\lsarpc"], ["desiredAccess", "GENERIC_READ GENERIC_WRITE"], ["creationDisposition", "OPEN_EXISTING"]], "timestamp": "229190000", "action_name": "CreateFile", "return": "e4"}, {"actions": [["hName", "\\\\.\\MountPointManager"], ["desiredAccess", ""], ["creationDisposition", "OPEN_EXISTING"]], "timestamp": "229790000", "action_name": "CreateFile", "return": "ec"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{4774220e-1640-11e4-bb1b-806d6172696f}\\\\Data"]], "timestamp": "229860000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{4774220e-1640-11e4-bb1b-806d6172696f}\\\\Generation"]], "timestamp": "229870000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hName", "\\\\.\\MountPointManager"], ["desiredAccess", ""], ["creationDisposition", "OPEN_EXISTING"]], "timestamp": "229910000", "action_name": "CreateFile", "return": "ec"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{6fc0686a-6791-11e1-b81a-806d6172696f}\\\\Data"]], "timestamp": "229950000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{6fc0686a-6791-11e1-b81a-806d6172696f}\\\\Generation"]], "timestamp": "229990000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hName", "\\\\.\\MountPointManager"], ["desiredAccess", ""], ["creationDisposition", "OPEN_EXISTING"]], "timestamp": "230010000", "action_name": "CreateFile", "return": "ec"}, {"actions": [["hName", "\\\\.\\MountPointManager"], ["desiredAccess", ""], ["creationDisposition", "OPEN_EXISTING"]], "timestamp": "230290000", "action_name": "CreateFile", "return": "ec"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{6fc0686a-6791-11e1-b81a-806d6172696f}\\"]], "timestamp": "230530000", "action_name": "RegCreateKey", "return": "0"}, {"actions": [["hKey", "ec\\BaseClass"], ["type", "REG_SZ"], ["data", "Drive"]], "timestamp": "230570000", "action_name": "RegSetValue", "return": "0"}, {"actions": [["hName", "\\\\.\\MountPointManager"], ["desiredAccess", ""], ["creationDisposition", "OPEN_EXISTING"]], "timestamp": "230570000", "action_name": "CreateFile", "return": "ec"}, {"actions": [["hName", "\\\\.\\MountPointManager"], ["desiredAccess", ""], ["creationDisposition", "OPEN_EXISTING"]], "timestamp": "230840000", "action_name": "CreateFile", "return": "ec"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{4774220e-1640-11e4-bb1b-806d6172696f}\\"]], "timestamp": "231100000", "action_name": "RegCreateKey", "return": "0"}, {"actions": [["hKey", "ec\\BaseClass"], ["type", "REG_SZ"], ["data", "Drive"]], "timestamp": "231100000", "action_name": "RegSetValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{6fc0686a-6791-11e1-b81a-806d6172696f}\\\\Generation"]], "timestamp": "231110000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["lpFileName", "SHELL32.dll"]], "timestamp": "231290000", "action_name": "LoadLibrary", "return": "7c9c0000"}, {"actions": [["lpFileName", "ole32.dll"]], "timestamp": "231310000", "action_name": "LoadLibrary", "return": "774e0000"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\DontShowSuperHidden"]], "timestamp": "231410000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ShellState"]], "timestamp": "231510000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ShellState"]], "timestamp": "231510000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\ForceActiveDesktopOn"]], "timestamp": "231530000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoActiveDesktop"]], "timestamp": "231650000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\ThemeManager\\Compositing"]], "timestamp": "232090000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Control Panel\\Desktop\\LameButtonText"]], "timestamp": "232110000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["lpFileName", "uxtheme.dll"]], "timestamp": "232120000", "action_name": "LoadLibrary", "return": "5ad70000"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoWebView"]], "timestamp": "233420000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\ClassicShell"]], "timestamp": "233430000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\SeparateProcess"]], "timestamp": "233450000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoNetCrawling"]], "timestamp": "233470000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoSimpleStartMenu"]], "timestamp": "233500000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\Hidden"]], "timestamp": "233510000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\ShowCompColor"]], "timestamp": "233510000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\HideFileExt"]], "timestamp": "233510000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\DontPrettyPath"]], "timestamp": "233510000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\ShowInfoTip"]], "timestamp": "233510000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\HideIcons"]], "timestamp": "233520000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\MapNetDrvBtn"]], "timestamp": "233520000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\WebView"]], "timestamp": "233520000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\Filter"]], "timestamp": "233520000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\ShowSuperHidden"]], "timestamp": "233520000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\SeparateProcess"]], "timestamp": "233530000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\NoNetCrawling"]], "timestamp": "233530000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CLASSES_ROOT\\Directory\\DocObject"]], "timestamp": "233550000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CLASSES_ROOT\\Directory\\BrowseInPlace"]], "timestamp": "233570000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CLASSES_ROOT\\Directory\\IsShortcut"]], "timestamp": "233620000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CLASSES_ROOT\\Directory\\AlwaysShowExt"]], "timestamp": "233630000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CLASSES_ROOT\\Directory\\NeverShowExt"]], "timestamp": "233640000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\UseDesktopIniCache"]], "timestamp": "233810000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders"]], "timestamp": "234250000", "action_name": "RegCreateKey", "return": "0"}, {"actions": [["hKey", "100\\Personal"]], "timestamp": "234250000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders"]], "timestamp": "234280000", "action_name": "RegCreateKey", "return": "0"}, {"actions": [["hKey", "100\\Personal"], ["type", "REG_SZ"], ["data", "C:\\Documents and Settings\\ants\\My Documents"]], "timestamp": "234280000", "action_name": "RegSetValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{6fc0686a-6791-11e1-b81a-806d6172696f}\\\\Generation"]], "timestamp": "234320000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\CompareJunctionness"]], "timestamp": "234790000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders"]], "timestamp": "234830000", "action_name": "RegCreateKey", "return": "0"}, {"actions": [["hKey", "ec\\Common Documents"]], "timestamp": "234830000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders"]], "timestamp": "234850000", "action_name": "RegCreateKey", "return": "0"}, {"actions": [["hKey", "ec\\Common Documents"], ["type", "REG_SZ"], ["data", "C:\\Documents and Settings\\All Users\\Documents"]], "timestamp": "234850000", "action_name": "RegSetValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{6fc0686a-6791-11e1-b81a-806d6172696f}\\\\Generation"]], "timestamp": "234880000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CLASSES_ROOT\\CLSID\\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\\InProcServer32"]], "timestamp": "235300000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoSharedDocuments"]], "timestamp": "235400000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["lpFileName", "netapi32"]], "timestamp": "235400000", "action_name": "LoadLibrary", "return": "5b860000"}, {"actions": [["hName", "\\\\.\\PIPE\\wkssvc"], ["desiredAccess", "GENERIC_READ GENERIC_WRITE"], ["creationDisposition", "OPEN_EXISTING"]], "timestamp": "235650000", "action_name": "CreateFile", "return": "ec"}, {"actions": [["desiredAccess", "PROCESS_DUP_HANDLE"], ["dwProcessId", "1460"]], "timestamp": "235750000", "action_name": "OpenProcess", "return": "100"}, {"actions": [["desiredAccess", "PROCESS_DUP_HANDLE"], ["dwProcessId", "1460"]], "timestamp": "235750000", "action_name": "OpenProcess", "return": "ec"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\MediaPlayer\\Preferences\\ObfuscatedSamplePlaylistsPath"]], "timestamp": "236140000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\MediaPlayer\\Preferences\\ObfuscatedSamplePlaylistsPath"]], "timestamp": "236140000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\MediaPlayer\\Preferences\\ObfuscatedSamplePlaylistsPath"]], "timestamp": "236140000", "action_name": "RegQueryValue", "return": "0"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\MediaPlayer\\Preferences\\ObfuscatedSyncPlaylistsPath"]], "timestamp": "236530000", "action_name": "RegQueryValue", "return": "2"}, {"actions": [["hKey", "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\MediaPlayer\\Preferences\\ObfuscatedSyncPlaylistsPath"], ["type", "REG_SZ"], ["data", "C:\\Documents and Settings\\All Users\\Documents\\My Music\\0005B703"]], "timestamp": "237000000", "action_name": "RegSetValue", "return": "0"}]
+[
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "C:\\WINDOWS\\system32\\IMM32.DLL"
+            ],
+            [
+                "EAX",
+                "76390000"
+            ]
+        ],
+        "m": "M1",
+        "timestamp": "322890000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE"
+            ],
+            [
+                "lpSubKey",
+                "Software\\Microsoft\\Windows NT\\CurrentVersion\\Diagnostics"
+            ],
+            [
+                "EAX",
+                "2"
+            ]
+        ],
+        "timestamp": "323860000",
+        "action_name": "RegOpenKey",
+        "return": "2"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "LPK.DLL"
+            ],
+            [
+                "EAX",
+                "629c0000"
+            ]
+        ],
+        "timestamp": "324470000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "gdi32.dll"
+            ],
+            [
+                "EAX",
+                "77f10000"
+            ]
+        ],
+        "timestamp": "325160000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "gdi32.dll"
+            ],
+            [
+                "EAX",
+                "77f10000"
+            ]
+        ],
+        "timestamp": "325160000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName ",
+                "C:\\Documents and Settings\\All Users\\Desktop\\malware.exe"
+            ],
+            [
+                "dwDesiredAccess",
+                "GENERIC_READ"
+            ],
+            [
+                "dwCreationDisposition",
+                "OPEN_EXISTING"
+            ],
+            [
+                "dwShareMode ",
+                "FILE_SHARE_READ"
+            ],
+            [
+                "EAX",
+                "34"
+            ]
+        ],
+        "timestamp": "325870000",
+        "action_name": "CreateFile",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName ",
+                "C:\\DOCUME~1\\ants\\LOCALS~1\\Temp\\TsuC61DEF41.dll"
+            ],
+            [
+                "dwDesiredAccess",
+                "GENERIC_WRITE"
+            ],
+            [
+                "dwCreationDisposition",
+                "CREATE_ALWAYS"
+            ],
+            [
+                "dwShareMode ",
+                "0"
+            ],
+            [
+                "EAX",
+                "38"
+            ]
+        ],
+        "timestamp": "326490000",
+        "action_name": "CreateFile",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "C:\\DOCUME~1\\ants\\LOCALS~1\\Temp\\TsuC61DEF41.dll"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "544190000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "C:\\Documents and Settings\\All Users\\Desktop\\malware.exe"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "544340000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "C:\\DOCUME~1\\ants\\LOCALS~1\\Temp\\TsuC61DEF41.dll"
+            ],
+            [
+                "EAX",
+                "10000000"
+            ]
+        ],
+        "m": "M7",
+        "timestamp": "544340000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE"
+            ],
+            [
+                "lpSubKey",
+                "Software\\Microsoft\\Windows NT\\CurrentVersion\\Diagnostics"
+            ],
+            [
+                "EAX",
+                "2"
+            ]
+        ],
+        "m": "M41",
+        "timestamp": "323860000",
+        "action_name": "RegOpenKey",
+        "return": "2"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "C:\\WINDOWS\\WindowsShell.Manifest"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "552670000",
+        "action_name": "LoadLibrary",
+        "return": "FAILURE"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName ",
+                "C:\\WINDOWS\\WindowsShell.Manifest"
+            ],
+            [
+                "dwDesiredAccess",
+                "GENERIC_READ"
+            ],
+            [
+                "dwCreationDisposition",
+                "OPEN_EXISTING"
+            ],
+            [
+                "dwShareMode ",
+                "FILE_SHARE_DELETE FILE_SHARE_READ"
+            ],
+            [
+                "EAX",
+                "44"
+            ]
+        ],
+        "timestamp": "552900000",
+        "action_name": "CreateFile",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "C:\\WINDOWS\\WindowsShell.Manifest"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "552930000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "C:\\WINDOWS\\WindowsShell.Manifest"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "552930000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "40"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "553270000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_CURRENT_USER"
+            ],
+            [
+                "lpSubKey",
+                "Control Panel\\Desktop"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "553270000",
+        "action_name": "RegOpenKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_CURRENT_USER\\Control Panel\\Desktop"
+            ],
+            [
+                "lpValueName",
+                "SmoothScroll"
+            ],
+            [
+                "EAX",
+                "2"
+            ],
+            [
+                "lpType",
+                "0"
+            ],
+            [
+                "lpData",
+                "77462a48"
+            ]
+        ],
+        "timestamp": "553280000",
+        "action_name": "RegQueryValue",
+        "return": "2"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_CURRENT_USER\\Control Panel\\Desktop"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "553280000",
+        "action_name": "RegCloseKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "40"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "553290000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_CURRENT_USER"
+            ],
+            [
+                "lpSubKey",
+                "software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "553290000",
+        "action_name": "RegOpenKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_CURRENT_USER\\software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced"
+            ],
+            [
+                "lpValueName",
+                "EnableBalloonTips"
+            ],
+            [
+                "EAX",
+                "2"
+            ],
+            [
+                "lpType",
+                "0"
+            ],
+            [
+                "lpData",
+                "77462170"
+            ]
+        ],
+        "timestamp": "553340000",
+        "action_name": "RegQueryValue",
+        "return": "2"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_CURRENT_USER\\software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "553340000",
+        "action_name": "RegCloseKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_CURRENT_USER"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "553350000",
+        "action_name": "RegCloseKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE"
+            ],
+            [
+                "lpSubKey",
+                "Software\\Microsoft\\Windows NT\\CurrentVersion\\LanguagePack"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "553350000",
+        "action_name": "RegOpenKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\LanguagePack"
+            ],
+            [
+                "lpValueName",
+                "SURR"
+            ],
+            [
+                "lpType",
+                "REG_DWORD"
+            ],
+            [
+                "lpData",
+                "2"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "553350000",
+        "action_name": "RegEnumValue",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\LanguagePack"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "553400000",
+        "action_name": "RegCloseKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE"
+            ],
+            [
+                "lpSubKey",
+                "SYSTEM\\Setup"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "553980000",
+        "action_name": "RegOpenKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE\\SYSTEM\\Setup"
+            ],
+            [
+                "lpValueName",
+                "SystemSetupInProgress"
+            ],
+            [
+                "EAX",
+                "0"
+            ],
+            [
+                "lpType",
+                "REG_DWORD"
+            ],
+            [
+                "lpData",
+                "0"
+            ]
+        ],
+        "timestamp": "554000000",
+        "action_name": "RegQueryValue",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE\\SYSTEM\\Setup"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "554000000",
+        "action_name": "RegCloseKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "comctl32.dll"
+            ],
+            [
+                "EAX",
+                "773d0000"
+            ]
+        ],
+        "timestamp": "554420000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "comctl32.dll"
+            ],
+            [
+                "EAX",
+                "773d0000"
+            ]
+        ],
+        "timestamp": "555150000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE"
+            ],
+            [
+                "lpSubKey",
+                "SYSTEM\\CurrentControlSet\\Control\\Session Manager"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "556200000",
+        "action_name": "RegOpenKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Session Manager"
+            ],
+            [
+                "lpValueName",
+                "CriticalSectionTimeout"
+            ],
+            [
+                "EAX",
+                "0"
+            ],
+            [
+                "lpType",
+                "0"
+            ],
+            [
+                "lpData",
+                "12f244"
+            ]
+        ],
+        "timestamp": "556200000",
+        "action_name": "RegQueryValue",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Session Manager"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "556260000",
+        "action_name": "RegCloseKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE"
+            ],
+            [
+                "lpSubKey",
+                "Software\\Microsoft\\Ole"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "556260000",
+        "action_name": "RegOpenKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Ole"
+            ],
+            [
+                "lpValueName",
+                "RWLockResourceTimeOut"
+            ],
+            [
+                "EAX",
+                "2"
+            ],
+            [
+                "lpType",
+                "0"
+            ],
+            [
+                "lpData",
+                "12f248"
+            ]
+        ],
+        "timestamp": "556260000",
+        "action_name": "RegQueryValue",
+        "return": "2"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Ole"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "556260000",
+        "action_name": "RegCloseKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "C:\\Documents and Settings\\All Users\\Desktop\\malware.exe"
+            ],
+            [
+                "EAX",
+                "400000"
+            ]
+        ],
+        "timestamp": "556700000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "C:\\Documents and Settings\\All Users\\Desktop\\malware.exe"
+            ],
+            [
+                "EAX",
+                "400000"
+            ]
+        ],
+        "timestamp": "557210000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName ",
+                "C:\\Documents and Settings\\All Users\\Desktop\\malware.exe"
+            ],
+            [
+                "dwDesiredAccess",
+                "GENERIC_READ"
+            ],
+            [
+                "dwCreationDisposition",
+                "OPEN_EXISTING"
+            ],
+            [
+                "dwShareMode ",
+                "FILE_SHARE_READ FILE_SHARE_WRITE"
+            ],
+            [
+                "EAX",
+                "48"
+            ]
+        ],
+        "timestamp": "557340000",
+        "action_name": "CreateFile",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "C:\\Documents and Settings\\All Users\\Desktop\\malware.exe"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "557360000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "C:\\Documents and Settings\\All Users\\Desktop\\malware.exe"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "557360000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName ",
+                "C:\\DOCUME~1\\ants\\LOCALS~1\\Temp\\malware.log"
+            ],
+            [
+                "dwDesiredAccess",
+                "GENERIC_WRITE"
+            ],
+            [
+                "dwCreationDisposition",
+                "OPEN_ALWAYS"
+            ],
+            [
+                "dwShareMode ",
+                "FILE_SHARE_READ"
+            ],
+            [
+                "EAX",
+                "4c"
+            ]
+        ],
+        "timestamp": "557430000",
+        "action_name": "CreateFile",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "C:\\Documents and Settings\\All Users\\Desktop\\malware.exe"
+            ],
+            [
+                "EAX",
+                "400000"
+            ]
+        ],
+        "timestamp": "557740000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "C:\\Documents and Settings\\All Users\\Desktop\\malware.exe"
+            ],
+            [
+                "EAX",
+                "400000"
+            ]
+        ],
+        "timestamp": "557850000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "kernel32.dll"
+            ],
+            [
+                "EAX",
+                "7c800000"
+            ]
+        ],
+        "timestamp": "558260000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "kernel32.dll"
+            ],
+            [
+                "EAX",
+                "7c800000"
+            ]
+        ],
+        "timestamp": "558370000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE"
+            ],
+            [
+                "lpSubKey",
+                "Software\\Microsoft\\Windows NT\\CurrentVersion"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "558590000",
+        "action_name": "RegOpenKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion"
+            ],
+            [
+                "lpValueName",
+                "CSDVersion"
+            ],
+            [
+                "EAX",
+                "0"
+            ],
+            [
+                "lpType",
+                "REG_SZ"
+            ],
+            [
+                "lpData",
+                "Service Pack 3"
+            ]
+        ],
+        "timestamp": "558590000",
+        "action_name": "RegQueryValue",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "558590000",
+        "action_name": "RegCloseKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "50"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "559420000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE"
+            ],
+            [
+                "lpSubKey",
+                "Software\\Microsoft\\Rpc\\PagedBuffers"
+            ],
+            [
+                "EAX",
+                "2"
+            ]
+        ],
+        "timestamp": "559430000",
+        "action_name": "RegOpenKey",
+        "return": "2"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE"
+            ],
+            [
+                "lpSubKey",
+                "Software\\Microsoft\\Rpc"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "559470000",
+        "action_name": "RegOpenKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Rpc"
+            ],
+            [
+                "lpValueName",
+                "MaxRpcSize"
+            ],
+            [
+                "EAX",
+                "2"
+            ],
+            [
+                "lpType",
+                "12f0f4"
+            ],
+            [
+                "lpData",
+                "12f0fc"
+            ]
+        ],
+        "timestamp": "559470000",
+        "action_name": "RegQueryValue",
+        "return": "2"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Rpc"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "559470000",
+        "action_name": "RegCloseKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE"
+            ],
+            [
+                "lpSubKey",
+                "Software\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options\\malware.exe\\RpcThreadPoolThrottle"
+            ],
+            [
+                "EAX",
+                "2"
+            ]
+        ],
+        "timestamp": "559470000",
+        "action_name": "RegOpenKey",
+        "return": "2"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE"
+            ],
+            [
+                "lpSubKey",
+                "Software\\Policies\\Microsoft\\Windows NT\\Rpc"
+            ],
+            [
+                "EAX",
+                "2"
+            ]
+        ],
+        "timestamp": "560110000",
+        "action_name": "RegOpenKey",
+        "return": "2"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "rpcrt4.dll"
+            ],
+            [
+                "EAX",
+                "77e70000"
+            ]
+        ],
+        "timestamp": "560120000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "64"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "560930000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "USER32.dll"
+            ],
+            [
+                "EAX",
+                "7c9c0000"
+            ]
+        ],
+        "m": "M42",
+        "timestamp": "561240000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "shell32.dll"
+            ],
+            [
+                "EAX",
+                "7c9c0000"
+            ]
+        ],
+        "timestamp": "561240000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "C:\\WINDOWS\\system32\\uxtheme.dll"
+            ],
+            [
+                "EAX",
+                "5ad70000"
+            ]
+        ],
+        "m": "M44",
+        "timestamp": "562250000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_CURRENT_USER"
+            ],
+            [
+                "lpSubKey",
+                "Software\\Microsoft\\Windows\\CurrentVersion\\ThemeManager"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "562990000",
+        "action_name": "RegOpenKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\ThemeManager"
+            ],
+            [
+                "lpValueName",
+                "Compositing"
+            ],
+            [
+                "EAX",
+                "2"
+            ],
+            [
+                "lpType",
+                "12e2f8"
+            ],
+            [
+                "lpData",
+                "12e308"
+            ]
+        ],
+        "timestamp": "562990000",
+        "action_name": "RegQueryValue",
+        "return": "2"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\ThemeManager"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "562990000",
+        "action_name": "RegCloseKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_CURRENT_USER"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "562990000",
+        "action_name": "RegCloseKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_CURRENT_USER"
+            ],
+            [
+                "lpSubKey",
+                "Control Panel\\Desktop"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "563030000",
+        "action_name": "RegOpenKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_CURRENT_USER\\Control Panel\\Desktop"
+            ],
+            [
+                "lpValueName",
+                "LameButtonText"
+            ],
+            [
+                "EAX",
+                "2"
+            ],
+            [
+                "lpType",
+                "12e504"
+            ],
+            [
+                "lpData",
+                "5ada1620"
+            ]
+        ],
+        "timestamp": "563030000",
+        "action_name": "RegQueryValue",
+        "return": "2"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_CURRENT_USER\\Control Panel\\Desktop"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "563030000",
+        "action_name": "RegCloseKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_CURRENT_USER"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "timestamp": "563030000",
+        "action_name": "RegCloseKey",
+        "return": "0"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "uxtheme.dll"
+            ],
+            [
+                "EAX",
+                "5ad70000"
+            ]
+        ],
+        "timestamp": "563050000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "C:\\WINDOWS\\system32\\uxtheme.dll"
+            ],
+            [
+                "EAX",
+                "5ad70000"
+            ]
+        ],
+        "timestamp": "564340000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "C:\\WINDOWS\\system32\\uxtheme.dll"
+            ],
+            [
+                "EAX",
+                "5ad70000"
+            ]
+        ],
+        "timestamp": "565720000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "C:\\WINDOWS\\system32\\uxtheme.dll"
+            ],
+            [
+                "EAX",
+                "5ad70000"
+            ]
+        ],
+        "timestamp": "566430000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "USER32.dll"
+            ],
+            [
+                "EAX",
+                "7c9c0000"
+            ]
+        ],
+        "m": "M45",
+        "timestamp": "561240000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "ole32.dll"
+            ],
+            [
+                "EAX",
+                "774e0000"
+            ]
+        ],
+        "timestamp": "567310000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "comctl32.dll"
+            ],
+            [
+                "EAX",
+                "773d0000"
+            ]
+        ],
+        "m": "M47",
+        "timestamp": "554420000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "comctl32.dll"
+            ],
+            [
+                "EAX",
+                "773d0000"
+            ]
+        ],
+        "timestamp": "555150000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "shell32.dll"
+            ],
+            [
+                "EAX",
+                "7c9c0000"
+            ]
+        ],
+        "timestamp": "561240000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "shell32.dll"
+            ],
+            [
+                "EAX",
+                "7c9c0000"
+            ]
+        ],
+        "timestamp": "573180000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "wininet.dll"
+            ],
+            [
+                "EAX",
+                "950001"
+            ]
+        ],
+        "timestamp": "578370000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName ",
+                "C:\\WINDOWS\\system32\\wininet.dll"
+            ],
+            [
+                "dwDesiredAccess",
+                "GENERIC_READ"
+            ],
+            [
+                "dwCreationDisposition",
+                "OPEN_EXISTING"
+            ],
+            [
+                "dwShareMode ",
+                "FILE_SHARE_DELETE FILE_SHARE_READ"
+            ],
+            [
+                "EAX",
+                "6c"
+            ]
+        ],
+        "timestamp": "578580000",
+        "action_name": "CreateFile",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "C:\\WINDOWS\\system32\\wininet.dll"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "578590000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "C:\\WINDOWS\\system32\\wininet.dll"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "578590000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "wininet.dll"
+            ],
+            [
+                "EAX",
+                "950001"
+            ]
+        ],
+        "timestamp": "578720000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName ",
+                "C:\\WINDOWS\\system32\\wininet.dll"
+            ],
+            [
+                "dwDesiredAccess",
+                "GENERIC_READ"
+            ],
+            [
+                "dwCreationDisposition",
+                "OPEN_EXISTING"
+            ],
+            [
+                "dwShareMode ",
+                "FILE_SHARE_DELETE FILE_SHARE_READ"
+            ],
+            [
+                "EAX",
+                "70"
+            ]
+        ],
+        "timestamp": "578840000",
+        "action_name": "CreateFile",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "C:\\WINDOWS\\system32\\wininet.dll"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "578920000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "C:\\WINDOWS\\system32\\wininet.dll"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "578920000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "msi.dll"
+            ],
+            [
+                "EAX",
+                "950001"
+            ]
+        ],
+        "timestamp": "579220000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName ",
+                "C:\\WINDOWS\\system32\\msi.dll"
+            ],
+            [
+                "dwDesiredAccess",
+                "GENERIC_READ"
+            ],
+            [
+                "dwCreationDisposition",
+                "OPEN_EXISTING"
+            ],
+            [
+                "dwShareMode ",
+                "FILE_SHARE_DELETE FILE_SHARE_READ"
+            ],
+            [
+                "EAX",
+                "6c"
+            ]
+        ],
+        "timestamp": "579390000",
+        "action_name": "CreateFile",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "C:\\WINDOWS\\system32\\msi.dll"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "579400000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "C:\\WINDOWS\\system32\\msi.dll"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "579400000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "msi.dll"
+            ],
+            [
+                "EAX",
+                "950001"
+            ]
+        ],
+        "timestamp": "579590000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName ",
+                "C:\\WINDOWS\\system32\\msi.dll"
+            ],
+            [
+                "dwDesiredAccess",
+                "GENERIC_READ"
+            ],
+            [
+                "dwCreationDisposition",
+                "OPEN_EXISTING"
+            ],
+            [
+                "dwShareMode ",
+                "FILE_SHARE_DELETE FILE_SHARE_READ"
+            ],
+            [
+                "EAX",
+                "70"
+            ]
+        ],
+        "timestamp": "579850000",
+        "action_name": "CreateFile",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "C:\\WINDOWS\\system32\\msi.dll"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "579860000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hObject",
+                "C:\\WINDOWS\\system32\\msi.dll"
+            ],
+            [
+                "EAX",
+                "1"
+            ]
+        ],
+        "timestamp": "579860000",
+        "action_name": "CloseHandle",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "sxs.dll"
+            ],
+            [
+                "EAX",
+                "7e720000"
+            ]
+        ],
+        "m": "M49",
+        "timestamp": "580450000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "lpFileName",
+                "kernel32.dll"
+            ],
+            [
+                "EAX",
+                "7c800000"
+            ]
+        ],
+        "m": "M50",
+        "timestamp": "558260000",
+        "action_name": "LoadLibrary",
+        "return": "SUCCESS"
+    },
+    {
+        "actions": [
+            [
+                "hKey",
+                "HKEY_LOCAL_MACHINE"
+            ],
+            [
+                "lpSubKey",
+                "Software\\Microsoft\\Windows NT\\CurrentVersion\\LanguagePack"
+            ],
+            [
+                "EAX",
+                "0"
+            ]
+        ],
+        "m": "M54",
+        "timestamp": "553350000",
+        "action_name": "RegOpenKey",
+        "return": "0"
+    }
+]
