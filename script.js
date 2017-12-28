@@ -182,10 +182,10 @@ function load_tracelog(malwareName){
 
         
         if( tracelogDes[(i+1).toString()]){
-          if(tracelogDes[(i+1).toString()]['td'])
-            tb_row += '<td>' + tracelogDes[(i+1).toString()]['td'] + '</td>';
-          else
-            tb_row += '<td>' + '-' + '</td>';
+          // if(tracelogDes[(i+1).toString()]['td'])
+          //   tb_row += '<td>' + tracelogDes[(i+1).toString()]['td'] + '</td>';
+          // else
+          //   tb_row += '<td>' + '-' + '</td>';
           if(tracelogDes[(i+1).toString()]['ob'])
             tb_row += '<td>' + tracelogDes[(i+1).toString()]['ob'] + '</td>';
           else
@@ -193,7 +193,7 @@ function load_tracelog(malwareName){
         }
         else{
            // technical description
-          tb_row += '<td>' + '-' + '</td>';
+          // tb_row += '<td>' + '-' + '</td>';
           
           // observed behavior
           tb_row += '<td>' + '-' + '</td>';

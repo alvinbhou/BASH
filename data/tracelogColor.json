@@ -3,7 +3,7 @@
         "color": "#8BC34A",
         "backgroundColor": "#DCEDC8"
     },
-    "CreateFile": {
+    "RegCreateKey": {
         "color": "#F44336",
         "backgroundColor": "#FFCDD2"
     },
@@ -19,7 +19,7 @@
         "color": "#000",
         "backgroundColor": "#FFF"
     },
-    "RegCreateKey": {
+    "CreateFile": {
         "color": "#2196F3",
         "backgroundColor": "#BBDEFB"
     },
