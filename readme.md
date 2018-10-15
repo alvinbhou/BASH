@@ -28,4 +28,4 @@ We analyze each operation the malware does and group them into stages. Important
 Click on the dll link to learn about more information of every dll manipulated by the malware.
 
 ## LICENSE
-MIT
+Apache 2.0
