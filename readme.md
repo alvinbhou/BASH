@@ -29,3 +29,9 @@ Click on the dll link to learn about more information of every dll manipulated b
 
 ## LICENSE
 Apache 2.0
+
+## Contributors
+|Contributor|
+|:-:|
+|[Alvin Hou](https://github.com/CryoliteZ)|
+|[Franklyn Chen](https://github.com/Franklyncc) ([Franklyn Chen](https://github.com/franklynChen))|
